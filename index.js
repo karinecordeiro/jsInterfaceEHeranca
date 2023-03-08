@@ -2,6 +2,7 @@ import {Cliente} from "./Cliente.js";
 import {ContaCorrente} from "./ContaCorrente.js";
 import {ContaPoupanca} from "./ContaPoupanca.js"
 import {Conta} from "./Conta.js"
+import { ContaSalario } from "./ContaSalario.js";
 
 ////
 
@@ -14,7 +15,19 @@ conta1.sacar(150);
 const contaPoupanca = new ContaPoupanca(420, cliente1, 1001);
 contaPoupanca.sacar(5);''
 
+
+
+const contaSalario = new ContaSalario(cliente1);
+contaSalario.depositar(120);
+contaSalario.sacar(20);
+
+
 console.log(conta1);
 console.log(contaPoupanca);
+console.log(contaSalario);
 
-////'
+/*
+const conta = new Conta(0, cliente1, 5555); erro de classe abstrata
+*/
+
+////
