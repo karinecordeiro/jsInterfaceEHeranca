@@ -1,8 +1,7 @@
 import {Cliente} from "./Cliente.js";
-import {ContaCorrente} from "./ContaCorrente.js";
-import {ContaPoupanca} from "./ContaPoupanca.js"
-import {Conta} from "./Conta.js"
-import { ContaSalario } from "./ContaSalario.js";
+import {ContaCorrente} from "./conta/ContaCorrente.js";
+import {ContaPoupanca} from "./conta/ContaPoupanca.js"
+import {ContaSalario} from "./conta/ContaSalario.js";
 
 ////
 
